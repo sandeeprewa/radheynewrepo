@@ -1,0 +1,500 @@
+    6  cd Desktop/
+    7  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+    8  /Users/sandeeppandey/Downloads/apache-tomcat-8.5.50-src/bin/startup.sh; exit
+    9  /Users/sandeeppandey/Downloads/apache-tomcat-8.5.50-src/bin/startup.sh; exit
+   10  cd Downloads/
+   11  cd apache-tomcat-8.5.50-
+   12  cd apache-tomcat-8.5.50-src/
+   13  ls
+   14  cd bin/
+   15  ./startup.shj
+   16  sudo ./startup.sh 
+   17  exit
+   18  exit
+   19  pwd
+   20  cd Documents/
+   21  cd test
+   22  cd ..
+   23  cd iexpress
+   24  cd iExpress/
+   25  git status
+   26  git add .
+   27  git commit -m 'Addressing Cors Issue'
+   28  git push
+   29  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+   30  cd ..
+   31  cd ..
+   32  cd ..
+   33  cd Desktop/
+   34  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+   35  pwd
+   36   cd Desktop/
+   37  ls
+   38  pwd
+   39  /Users/sandeeppandey/Desktop/me.jpg
+   40  curl -X POST   http://13.127.24.189:8080/iExpress/api/v1/resource   -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjMwLCJhdWRpZW5jZSI6IiQyYSQxMCRYRDlWNzJDWHJUMmY5cEJNajZhVmYuZWw0YTNmWlFyZ2cydUJILno3SFcuUTE0SjlvUUE1cSIsImNyZWF0ZWQiOjE1ODA5NjI0MDU2OTMsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjo5MX0.IHpZU886LBfpHzp1Irn0qQNZd8j7ll9FgMC8Z6SNlGfb4_fuXzCmjtWRHqkgsYgXuN3_lpAV5et40cldXfUoDA'   -H 'cache-control: no-cache'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'   -H 'postman-token: d9f4c585-71b2-5765-830a-03648366c7a6'   -F resource=@/Users/sandeeppandey/Desktop/me.jpg   -F belongsTo=PROFILE_PHOTO
+   41  cd Desktop/
+   42  ls
+   43  clear
+   44  cd ..
+   45  cd Documents/
+   46  cd iexpress
+   47  ls
+   48  cd iExpress/
+   49  ls
+   50  git status
+   51  git add .
+   52  git commit -m 'Adding Login Related fields'
+   53  git push
+   54  git push
+   55  cd /root/
+   56  cd /.ssh
+   57  cd etc/
+   58  cd /etc
+   59  ls
+   60  cd ssh/
+   61  ls
+   62  cat ssh_host_rsa_key.pub
+   63  cd ~/.ssh/
+   64  ls
+   65  cat sandeep_pandey_rewa.pub 
+   66  cat id_rsa.pub 
+   67  cd ..
+   68  ls
+   69  cd Documents/
+   70  cd iexpress
+   71  cd iExpress/
+   72  git status
+   73  git push
+   74  git status
+   75  git add .
+   76  git commit -m 'Removed validation'
+   77  git push
+   78  git add .
+   79  git commit -m 'Removed validation'
+   80  git push
+   81  git status
+   82  git status
+   83  git add .
+   84  git status'
+   85  git status
+   86  git add .
+   87  git commit -m 'Custom validation '
+   88  git push
+   89  git status
+   90  git diff
+   91  exit
+   92  cd Desktop/
+   93  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+   94  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+   95  exit
+   96  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+   97  git status
+   98  exit
+   99  cd Documents/
+  100  ls
+  101  cd iexpress
+  102  ls
+  103  cd iExpress/
+  104  ls
+  105  git status
+  106  git add .
+  107  git status
+  108  git commit -m 'Refactoring and updated profile related'
+  109  git push
+  110  pwd
+  111  cd Documents/
+  112  cd test
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd iexpress
+  117  ls
+  118  cd iExpress/
+  119  ls
+  120  git status
+  121  git add .
+  122  git commit -m 'Basic Image'
+  123  git push
+  124  cd Documents/
+  125  ls
+  126  cd iexpress
+  127  ls
+  128  cd iExpress/
+  129  ls
+  130  git status
+  131  git add .
+  132  git commit -m 'Post related changes'
+  133  git push
+  134  cd Desktop/
+  135  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzY0MzQ0NTQsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.myUhgU0oKo0w9WFb9mC4Kzw8n9kw4QeaZ5DkihW0bMQj1JzgBqvtCU8Wr4eNnHr1pplLgbxjBNQX7bqswxS60Q
+  136  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  137  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzY0MzQ0NTQsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.myUhgU0oKo0w9WFb9mC4Kzw8n9kw4QeaZ5DkihW0bMQj1JzgBqvtCU8Wr4eNnHr1pplLgbxjBNQX7bqswxS60Q
+  138  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belngs_to=PROFILE_PHOTO'
+  139  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzY0MzQ0NTQsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.myUhgU0oKo0w9WFb9mC4Kzw8n9kw4QeaZ5DkihW0bMQj1JzgBqvtCU8Wr4eNnHr1pplLgbxjBNQX7bqswxS60Q
+  140  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  141  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzY0MzQ0NTQsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.myUhgU0oKo0w9WFb9mC4Kzw8n9kw4QeaZ5DkihW0bMQj1JzgBqvtCU8Wr4eNnHr1pplLgbxjBNQX7bqswxS60Q
+  142  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  143  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  144  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  145  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  146  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO’
+  147  ;
+  148  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  149  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO’
+  150  ;
+  151  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  152  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  153  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  154  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  155  curl --location --request POST 'http://13.127.24.189:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  156  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiYXVkaWVuY2UiOiJpRXhwcmVzcyIsImNyZWF0ZWQiOjE1Nzc5ODY5OTAwODQsIlNJTkdMRV9VU0VSX0xPR0lOIjoiOTk5OTEifQ.9n-CPrm4n_vu181bZVb8Z5XGm2Er-On46yGJaRn-NWsCvdQ5jaLoHc7dMM5EyVZ84a8mc8JMnkwbJuJAjoA-GQ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO’
+  157  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1Nzg1ODEzNjUyNzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNCIsIkRFVklDRV9JRCI6NTF9.vanmm6uZ18mzMdgKgDZNLbo8MqOlGzNSmdZz-qGiw-3pKIlm2XrHBIMwX8ghIVN48xix1jjDAT43qwhyINBeFA' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  158  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  159  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  160  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzcwNzQwMzAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.-VxEzqhWNqgLyrfMem7nhCrOXLOJXEz6YQ6NUzLjJzrbqZV5VYBwJVQNHYcFJemLqjUH5prAqatXbcssLsn10w
+  161  ' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  162  curl --location --request POST 'http://localhost:8080/iExpress/api/v1/resource' \ --header 'authHeader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODQzNzc3MzA1NTIsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.SOwMc0vWmD1uRZ7ksF3WCtqYJg76_6Qz9Sz4TtZz8mLYU8nlC4GwCnp0ZAxkqPeUxxpredYuGU_x-yPYUNMNsg' \ --form 'resource=/Users/sandeeppandey/Desktop/me.jpg' \ --form 'belongs_to=PROFILE_PHOTO'
+  163  cd Desktop/
+  164  curl -X POST   http://localhost:8080/iExpress/api/v1/resource   -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODY3MDg2MjAzODAsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.eycjUsrETO7lVopNkhzpaf6eNp-dmGKUagUi2HZ6AoBN18m5YDpAzm-WifXNlMPe5vmdIAkwe0aePh7iDR7oWw'   -H 'cache-control: no-cache'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300'   -F resource=@clickOnAdmin.png   -F belongsTo=PROFILE_PHOTO
+  165  exit
+  166  exit
+  167  cd Documents/
+  168  ls
+  169  cd test
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd iexpress
+  174  ls
+  175  cd iExpress/
+  176  git status
+  177  git add .
+  178  git commit -m 'Adding '
+  179  git push
+  180  git status
+  181  git add .
+  182  git commit -m 'Changes in build'
+  183  git push
+  184  cd Desktop/
+  185  curl -X POST   http://localhost:8080/iExpress/api/v1/resource   -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODY4ODQyMjQ5ODksIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.R8o70XC5GIreMPdHiAh6X5ba-SOB7oiWf8YavlP-kvnFwxLTBwX6IKZf9RZ3j4xzJKw54wblu7Zz2FgiX15M1w'   -H 'cache-control: no-cache'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300'   -F resource=@clickOnAdmin.png   -F belongsTo=PROFILE_PHOTO
+  186  curl -X POST   http://localhost:8080/iExpress/api/v1/resource   -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODY4ODQyMjQ5ODksIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.R8o70XC5GIreMPdHiAh6X5ba-SOB7oiWf8YavlP-kvnFwxLTBwX6IKZf9RZ3j4xzJKw54wblu7Zz2FgiX15M1w'   -H 'cache-control: no-cache'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300'   -F resource=@me.png   -F belongsTo=PROFILE_PHOTO
+  187  curl -X POST   http://localhost:8080/iExpress/api/v1/resource   -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjIxLCJhdWRpZW5jZSI6IiQyYSQxMCQ3ay9ieHFHNW9WQnhYYmh6cW95Q211TkhXLlI2R3ZMWlU5YU9tSmEvLnB6dElub0RGTFhkcSIsImNyZWF0ZWQiOjE1ODY4ODQyMjQ5ODksIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzMiIsIkRFVklDRV9JRCI6MjQ1fQ.R8o70XC5GIreMPdHiAh6X5ba-SOB7oiWf8YavlP-kvnFwxLTBwX6IKZf9RZ3j4xzJKw54wblu7Zz2FgiX15M1w'   -H 'cache-control: no-cache'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300'   -F resource=@me.jpg   -F belongsTo=PROFILE_PHOTO
+  188  cd ..
+  189  pwd
+  190  ls
+  191  cd test
+  192  ls
+  193  cd ..
+  194  cd Documents/
+  195  ls
+  196  cd test
+  197  cd ..
+  198  cd iexpress
+  199  ls
+  200  cd iExpress/
+  201  ls
+  202  git status
+  203  git add .
+  204  git commit -m 'Adding CRUD operation related to Question And Answer'
+  205  git push
+  206  git status
+  207  git add .
+  208  git commit -m 'Post and question'
+  209  git push
+  210  cd Desktop/
+  211  url -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  212   -H 'cache-control: no-cache’  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  213   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  214   -F resource=@clickOnAdmin.png \ 
+  215   -F belongsTo=PROFILE_PHOTO
+  216  url -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  217   -H 'cache-control: no-cache’  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  218   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  219   -F resource=@clickOnAdmin.png \ 
+  220   -F belongsTo=PROFILE_PHOTO
+  221  curl -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  222   -H 'cache-control: no-cache’  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  223   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  224   -F resource=@clickOnAdmin.png \ 
+  225   -F belongsTo=PROFILE_PHOTO
+  226  curl -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  227   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  228   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  229   -F resource=@clickOnAdmin.png \ 
+  230   -F belongsTo=PROFILE_PHOTO
+  231  ;
+  232  curl -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  233   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  234   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  235   -F resource=@clickOnAdmin.png \ 
+  236   -F belongsTo=PROFILE_PHOTO
+  237  -H 'cache-control : no-cache''
+  238  curl -X POST http://localhost:8080/iExpress/api/v1/resource -H 'authheader: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOjgyLCJhdWRpZW5jZSI6IiQyYSQxMCQ4alY5OWUyaG1yVk5vSnpTeUVNazd1QmxBdUtpRUxSaWxiMHpWZ0NDUTc1ZFhKcTVVSktjUyIsImNyZWF0ZWQiOjE1ODcyNDE2MjU0MzcsIlNJTkdMRV9VU0VSX0xPR0lOIjoiMTIzNDU2Nzg5IiwiREVWSUNFX0lEIjoyOTV9.p6pMDVLlXcB5PDDXw_c5Fo69ohWgQlKS7YZ6s9eOOzl0bCPv_jpdRz6rZBZM1Xj_eYGDM51l55JHLsOe-phUOA’ \
+  239   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \ 
+  240   -H 'postman-token: 2b5485f2-68d0-939d-4cd5-439a3c2ba300' \ 
+  241   -F resource=@clickOnAdmin.png \ 
+  242   -F belongsTo=PROFILE_PHOTO
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd test
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd Documents/
+  251  ls
+  252  cd iexpress
+  253  ls
+  254  cd iExpress/
+  255  ls
+  256  git status
+  257  git add .
+  258  git commit -m 'Q&A is added'
+  259  git push
+  260  exit
+  261  exit
+  262  pwd
+  263  cd Documents/
+  264  cd test
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd iexpress
+  269  ls
+  270  cd iExpress/
+  271  git status
+  272  git reset --hard HEAD~1
+  273  git status
+  274  git rm -rf
+  275  git rm .
+  276  git rm -rf *
+  277  git status
+  278  git reset --hard origin
+  279  git status
+  280  git rm -rf src/main/resources/public
+  281  git bracnh
+  282  git brach
+  283  git branch
+  284  git tip
+  285  git commit
+  286  git log --name-status HEAD^..HEAD
+  287  git pull origin 
+  288  git log
+  289  git checkout -b sprint3
+  290  git branch
+  291  git push origin
+  292  git push --set-upstream sprint3
+  293  git status
+  294  git rm -rf
+  295  git rm -rf *.*
+  296  git status
+  297  git rm -rf src/main/resources
+  298  git status
+  299  git status
+  300  git status
+  301  git branch
+  302  git checkout sprint1
+  303  git status
+  304  git clean -f
+  305  git status
+  306  rm -rf ./*
+  307  git reset --hard HEAD
+  308  git status
+  309  git branch
+  310  git branch -d sprint3
+  311  git status
+  312  git branch
+  313  git checkout -b sprint2
+  314  git status
+  315  git status
+  316  git add .
+  317  git commit -m 'removing space'
+  318  git push
+  319  git push --set -upstream origin sprint2
+  320  git push origin -u sprint2
+  321  cd Desktop/
+  322  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+  323  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+  324  cd Desktop/
+  325  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  326  cd Documents/
+  327  ls
+  328  cd iexpress
+  329  ls
+  330  cd iExpress/
+  331  git status
+  332  git checkout -b sprint3
+  333  git branch
+  334  cd Desktop/
+  335  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  336  cd Desktop/
+  337  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+  338  cd Documents/
+  339  cd test
+  340  cd ..
+  341  cd iexpress
+  342  ls
+  343  cd iExpress/
+  344  git status
+  345  git branch
+  346  git add .
+  347  git commit -m 'verification change'
+  348  git push
+  349  git push --set-upstream origin sprint3
+  350  exit
+  351  cd Documents/
+  352  cd iexpress
+  353  ls
+  354  cd iExpress/
+  355  git status
+  356  git add .
+  357  git commit -m 'Adding Listing Pos'
+  358  git push
+  359  cd Desktop/
+  360  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+  361  cd Desktop/
+  362  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  363  chmod 400 mykey.pem
+  364  chmod 400 java8.pem
+  365  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  366  cd Documents/
+  367  ls
+  368  cd iexpress
+  369  ls
+  370  cd iExpress/
+  371  git branch
+  372  git status
+  373  cd Documents/
+  374  cd ..
+  375  ls
+  376  cd test
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd Documents/
+  381  ls
+  382  cd test
+  383  ls
+  384  cd ..
+  385  ls
+  386  cd iexpress
+  387  ls
+  388  cd iExpress/
+  389  git status
+  390  git diff src/main/java/com/iexpress/spring/api/auth/service/impl/AuthenticationServiceImpl.java 
+  391  git diff 
+  392  git add .
+  393  git commit -m 'refactoring'
+  394  git push
+  395  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jvisualvm ; exit;
+  396  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jstack ; exit;
+  397  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jstat ; exit;
+  398  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jvisualvm ; exit;
+  399  pwd
+  400  cd Documents/
+  401  ls
+  402  cd iexpress/
+  403  ls
+  404  cd iExpress/
+  405  git status
+  406  git diff src/main/java/com/iexpress/spring/config/security/SecurityConfiguration.java 
+  407  git diff src/main/java/com/iexpress/spring/config/security/SecurityConfiguration.java 
+  408  git diff src/main/java/com/iexpress/spring/config/security/SecurityConfiguration.java 
+  409  git status
+  410  git checkout src/main/java/com/iexpress/spring/config/security/SecurityConfiguration.java 
+  411  git status
+  412  git status
+  413  git status
+  414  git add .
+  415  git commit -m 'refactor'
+  416  git push
+  417  git status
+  418  git diff 
+  419  git add .
+  420  git commit -m 'Fixed the issue introduced during refactoring'
+  421  git push
+  422  git status
+  423  git add src/main/java/com/iexpress/spring/api/exception/handler/RootExceptionHandler.java 
+  424  git add src/main/java/com/iexpress/spring/api/util/RestConstant.java 
+  425  git add src/main/resources/msg.properties 
+  426  git status
+  427  git add src/main/java/com/iexpress/spring/api/exception/handler/RootExceptionHandler.java 
+  428  git status
+  429  git commit -m 'Adding new exception in root exception handler'
+  430  git push
+  431  git push
+  432  git status
+  433  git add .
+  434  git commit -m 'Added static resources'
+  435  git push
+  436  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  437  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -Dfile.encoding=UTF-8 -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  438  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  439  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  440  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -p  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  441  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -p  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  442  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -c  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.StreamExamples
+  443  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -c  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.TC
+  444  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -c  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.TL
+  445  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -c  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.TL
+  446  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/javap -c  -classpath /Users/sandeeppandey/Documents/springToolSuiteDemo/JavaTest/bin com.example.java8.TL
+  447  git status
+  448  cd ..
+  449  cd ..
+  450  cd ..
+  451  cd Desktop/
+  452  ls
+  453  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  454  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jmap ; exit;
+  455  /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jstat ; exit;
+  456  cd /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/jmap
+  457  cd /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin/
+  458  jmap -permgen
+  459  jmap 
+  460  jmap -clstats
+  461  jmap -clstats
+  462  jmap -clstats
+  463  jmap -histo
+  464  ps
+  465  jps
+  466  jmap -histo 13528
+  467  jps
+  468  jmap -histo 13565
+  469  jps
+  470  jmap -histo 35044
+  471  exitr
+  472  exit
+  473  ls
+  474  cd Documents/
+  475  ls
+  476  cd iexpress/
+  477  ls
+  478  cd iExpress/
+  479  ls
+  480  git status
+  481  git branch
+  482  git diff
+  483  cd Desktop/
+  484  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  485  cd Desktop/
+  486  ls
+  487  scp -i /Users/sandeeppandey/Desktop/java8.pem iExpress.war ubuntu@13.127.24.189:/opt/
+  488  ssh -i /Users/sandeeppandey/Desktop/java8.pem ubuntu@13.127.24.189
+  489  git status
+  490  ls
+  491  cd Documents/
+  492  ls
+  493  mkdir javaprojecttest
+  494  cd javaprojecttest/
+  495  ls
+  496  ls
+  497  mkdir radheynewrepo
+  498  cd radheynewrepo/
+  499  ls
+  500  clear
+  501  git init
+  502  ls
+  503  ls -la
+  504  pwd
+  505  history >> hi.txt
